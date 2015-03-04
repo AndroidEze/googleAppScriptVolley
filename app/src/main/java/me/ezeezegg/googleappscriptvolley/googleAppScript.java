@@ -26,7 +26,9 @@ import java.util.ArrayList;
 import me.ezeezegg.googleappscriptvolley.adapters.CustomAdapter;
 import me.ezeezegg.googleappscriptvolley.models.Persona;
 
-
+/**
+ * Created by ezegg on 04/03/2015.
+ */
 public class googleAppScript extends ActionBarActivity {
 
     @Override
@@ -43,7 +45,6 @@ public class googleAppScript extends ActionBarActivity {
         //Creamos una instancia de un ProgressDialog para que el usuario observe que los datos se estan obteniendo
         final ProgressDialog progressDialog = ProgressDialog.show(this, "Please wait ...", "Downloading Data ...", true);
 
-
         //Configuramos nuestro request, al intanciar JsonArrayRequest recibe la URL y un Listener de JSON Array, el cual
         //contiene una serie de metodos a implelentar, practicamente si resulto bien o existio un error, ademas
         // sirve como un singleton para mandarlo a llamar cuando sea necesario hacer de nuevo el request.
@@ -56,10 +57,10 @@ public class googleAppScript extends ActionBarActivity {
             public void onResponse(JSONArray response) {
 
                 //Un textview antes de la vista nos permite ver los datos crudos dentro de la misma app
-                TextView textView = (TextView) findViewById(R.id.datos_crudos);
-                textView.setText(response.toString());
+                //TextView textView = (TextView) findViewById(R.id.datos_crudos);
+                //textView.setText(response.toString());
                 //dejamos en el Log un pequeño mensaje con el response como string para ver un preview de lo que recibimos
-                Log.e("respeusta", response.toString());
+                Log.e("Response --->", response.toString());
 
                 //buscamos el listview de main_activity
                 ListView list = (ListView) findViewById(R.id.list_view);

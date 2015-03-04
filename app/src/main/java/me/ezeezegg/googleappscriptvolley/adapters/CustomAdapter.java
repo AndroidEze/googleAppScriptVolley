@@ -13,7 +13,7 @@ import me.ezeezegg.googleappscriptvolley.R;
 import me.ezeezegg.googleappscriptvolley.models.Persona;
 
 /**
- * Created by Itguardian on 04/03/2015.
+ * Created by ezegg on 04/03/2015.
  */
 public class CustomAdapter extends ArrayAdapter<Persona> {
 

@@ -3,7 +3,7 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical" android:layout_width="fill_parent"
     android:layout_height="fill_parent"
-    android:background="#90000000"
+    android:background="@color/accent_color"
     >
 
     <TextView
@@ -11,7 +11,7 @@
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:text="Nombre"
-        android:textColor="#FFFFFF"
+        android:textColor="@color/text_color"
         android:textStyle="bold"
         android:gravity="center_horizontal"
         android:paddingTop="15dp"
@@ -24,7 +24,7 @@
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:text="Sueldo"
-        android:textColor="#89d8fa"
+        android:textColor="@color/text_color"
         android:layout_marginLeft="10dp"
         android:layout_marginBottom="10dp"
         android:id="@+id/sueldo" />
@@ -35,7 +35,7 @@
         android:layout_height="wrap_content"
         android:text="Salario diario"
         android:textStyle="italic"
-        android:textColor="#ffb900"
+        android:textColor="@color/text_color"
         android:layout_marginLeft="10dp"
         android:id="@+id/salario_diario" />
 
@@ -47,7 +47,7 @@
         android:layout_marginRight="10dp"
         android:layout_marginBottom="15dp"
         android:layout_gravity="right"
-        android:textColor="#00de72"
+        android:textColor="@color/text_color"
         android:id="@+id/dias_laborados" />
 
 </LinearLayout>

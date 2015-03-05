@@ -8,8 +8,8 @@
         <item name="android:windowSharedElementExitTransition">@android:transition/move</item>
     </style>
 
-    <color name="primary_dark_color">#6200EA</color>
-    <color name="primary_color">#673AB7</color>
+    <color name="primary_dark_color">#673AB7</color>
+    <color name="primary_color">#6200EA</color>
     <color name="accent_color">#03A9F4</color>
     <color name="text_color">#ffffffff</color>
 
